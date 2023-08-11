@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+pixel_market_program = "9L6oPAeVehsLcL8iAnakzhnb22UApVfbyf5JcS6BnEVL"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/sotatek/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
